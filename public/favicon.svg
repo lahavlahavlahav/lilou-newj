@@ -1,0 +1,25 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    @keyframes pageTurn {
+      0%, 100% { transform: rotateY(0deg); }
+      50% { transform: rotateY(-30deg); }
+    }
+    .page1 { animation: pageTurn 3s ease-in-out infinite; transform-origin: left center; }
+    .page2 { animation: pageTurn 3s ease-in-out infinite 0.2s; transform-origin: left center; }
+    .page3 { animation: pageTurn 3s ease-in-out infinite 0.4s; transform-origin: left center; }
+  </style>
+  <rect width="64" height="64" rx="12" fill="#FDF8F3"/>
+  <rect x="14" y="16" width="4" height="32" rx="1" fill="#8B7355"/>
+  <path d="M18 16 L48 16 L48 48 L18 48 Z" fill="#D4A574"/>
+  <g class="page1">
+    <path d="M20 18 Q32 22, 44 18 L44 26 Q32 30, 20 26 Z" fill="#F5E6E0" stroke="#C9A86C" stroke-width="0.5"/>
+  </g>
+  <g class="page2">
+    <path d="M20 28 Q34 34, 44 28 L44 36 Q34 42, 20 36 Z" fill="#FDF8F3" stroke="#C9A86C" stroke-width="0.5"/>
+  </g>
+  <g class="page3">
+    <path d="M20 38 Q30 44, 44 38 L44 46 Q30 52, 20 46 Z" fill="#F5E6E0" stroke="#C9A86C" stroke-width="0.5"/>
+  </g>
+  <path d="M32 30 C28 26, 22 28, 22 33 C22 38, 32 44, 32 44 C32 44, 42 38, 42 33 C42 28, 36 26, 32 30" fill="#D4A574" opacity="0.8"/>
+</svg>

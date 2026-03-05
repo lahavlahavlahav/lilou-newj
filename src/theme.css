@@ -1,0 +1,67 @@
+@theme {
+  /* Lilou Books Colors - Warm & Creative */
+  --color-primary: #D4A574;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #8B7355;
+  --color-secondary-foreground: #FFFFFF;
+  --color-destructive: #E57373;
+  --color-destructive-foreground: #FFFFFF;
+  --color-muted: #FDF8F3;
+  --color-muted-foreground: #6B5B4F;
+  --color-accent: #C9A86C;
+  --color-accent-foreground: #FFFFFF;
+  --color-border: #E8DDD4;
+  --color-input: #E8DDD4;
+  --color-ring: #D4A574;
+  /* Custom Colors */
+  --color-cream: #FDF8F3;
+  --color-warm-brown: #8B7355;
+  --color-gold: #C9A86C;
+  --color-soft-pink: #F5E6E0;
+  --color-deep-brown: #5C4A3D;
+  --color-sage: #A8B5A0;
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  /* Fonts */
+  --font-sans: 'Heebo', system-ui, sans-serif;
+  --font-display: 'Secular One', system-ui, sans-serif;
+  --font-logo: 'Cormorant Garamond', Georgia, serif;
+}
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EJSfXRImpNQ.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EFifXRImpNQ.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Secular One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/secularone/v12/8QINdiTajsj_87rMuMdKypDl-Ms.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllvuQWJ5heb_w.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/cormorantgaramond/v16/co3bmX5slCNuHLi8bLeY9MK7whWMhyjornFLsS6V7w.woff2') format('woff2');
+}
